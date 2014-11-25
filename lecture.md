@@ -124,8 +124,9 @@
 
 
 
-##Behaviours in Version Control
+##Actions in Version Control
 
+- status
 - initialisation
 - add
 - commit
@@ -138,6 +139,19 @@
 - push
 
 
+###status
+
+- Show the working tree status
+  - displays paths that have differences between the index file and the current HEAD commit
+  - paths that have differences between the working tree and the index file
+  - paths in the working tree that are not tracked by Git 
+  - http://git-scm.com/docs/git-status
+
+```bash
+git status
+```
+
+
 ###initialisation
 
 - Create an empty Git repository or reinitialize an existing one
@@ -147,6 +161,7 @@
 ```bash
 git init
 ```
+
 
 ###add
 
@@ -244,7 +259,6 @@ git checkout -b NewBranchToCreateAndCheckout
 ```
 
 
-
 ###merge
 
 - Join two or more development histories together
@@ -261,7 +275,6 @@ git merge BranchX #Merge BranchX into present branch
 - Clone a repository into a new directory
   - http://git-scm.com/docs/git-clone
   - automatically sets up the ```remote```
-
 
 ```bash
 git clone https://github.com/shearer12345/softwareEngineering_introToGit.git
@@ -307,6 +320,7 @@ git push
 git push origin #push to the remote called origin
   #will need enough rights for this
 ```
+
 
 
 ##When to commit?
