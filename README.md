@@ -6,8 +6,9 @@
 
 ##Lectures
 
-- [lecture01 - Introduction To Git](lecture01.html)
+- [lecture01 - Introduction To Software Versioning](lecture01.html)
 - [lecture02 - Continuous Integration](lecture02.html)
+- [lecture03 - Introduction to Testing](lecture03.html)
 
 
 ##Workshops

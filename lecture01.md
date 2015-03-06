@@ -1,4 +1,4 @@
-##Introduction To Git - Lecture
+##Introduction To Software Versioning - Lecture
 
 
 ##Software Versioning - What is it?
