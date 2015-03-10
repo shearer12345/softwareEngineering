@@ -100,8 +100,8 @@
 
 - **NO**
   - for instance, this presentation is in git, hosted on github
-  - hosted at: http://shearer12345.github.io/softwareEngineering_introToGit
-  - source at: https://github.com/shearer12345/softwareEngineering_introToGit
+  - hosted at: http://shearer12345.github.io/softwareEngineering
+  - source at: https://github.com/shearer12345/softwareEngineering
 - also:
   - documentation
   - configuration files
@@ -273,14 +273,14 @@ git merge BranchX #Merge BranchX into present branch
   - automatically sets up the ```remote```
 
 ```bash
-git clone https://github.com/shearer12345/softwareEngineering_introToGit.git
+git clone https://github.com/shearer12345/softwareEngineering.git
   #clone this lecture
   #will get the content, but not the submodule for reveal.js
   #so won't work as a presentation
 ```
 
 ```bash
-git clone --recursive https://github.com/shearer12345/softwareEngineering_introToGit.git
+git clone --recursive https://github.com/shearer12345/softwareEngineering.git
   #clone this lecture, clone submodules also
 ```
 
