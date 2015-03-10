@@ -114,6 +114,153 @@ e.g. Pentium FDIV bug
 
 
 
+##different types of testing
+
+- black box, white box testing
+- unit testing
+- integration testing
+- profiling
+- user testing
+
+
+##When does testing occur in the software development lifecycle?
+
+- When are tests written/defined?
+- When are tests run?
+
+Both depend (of course) on the development methodology!
+
+
+
+##testing support tools
+
+
+###automated testing
+
+- why not just:
+
+```java
+System.out.println("some bit of code gave a value of 6.")
+```
+
+
+###testing in Java
+
+- JUnit 4 (http://junit.org/)
+- Test-driven development in Java
+
+
+###continuous integration
+
+- Jenkins, Hudson, FinalBuilder, BuildOut
+  - http://en.wikipedia.org/wiki/List_of_build_automation_software#Continuous_integration_tools
+
+
+###testing the tests
+
+- !!?!!?!?!?!?!?!
+
+
+
+##Types of testing
+
+- In general, types of testing are separated around what **purposes** the tests aiming for, and when they occur in the development methodologies, rather than the specific implementations
+- i.e. some test implementations are used for multiple types of testing
+ - e.g. the tests we've been writing in JUnit come under the definitions of both **unit testing** and **regression testing**
+
+
+
+##Static vs. Dynamic Testing
+
+- Static testing involves **verification**
+- whereas dynamic testing involves **validation**
+- together they help improve software quality
+
+- we're mostly focussed in this part of this module on dynamic testing
+
+
+
+##White-Box vs Black-Box Testing
+
+- do we look **inside** things, or not?
+
+
+##White-Box Testing
+
+- looking inside the box
+- also known as:
+  - clear box testing
+  - glass box testing
+  - transparent box testing
+  - structural testing
+
+
+##Types of White-Box Testing (non-complete)
+
+- API testing
+- Code coverage
+- Fault injection methods
+- Mutation testing methods
+- Static testing methods
+
+
+##Black-Box Testing
+
+- don't look in the box
+- examining functionality without any knowledge of internal implementation
+
+
+##Types of Black-Box Testing (non-complete)
+
+- equivalence partitioning
+- boundary value analysis
+- all-pairs testing
+- state transition tables
+- fuzz testing
+- model-based testing
+- use case testing
+- exploratory testing
+- specification-based testing.
+
+
+
+##Levels/Layers of testing
+
+- unit
+- integration
+- system
+
+
+##Unit testing
+
+- also known as component testing
+- tests verify the functionality of a **specific section of code**
+  - usually at the function level
+  - n an object-oriented environment
+	  - usually at the class level
+- **test one thing**
+
+
+##Integration testing
+
+- any type of software testing that seeks to verify the interfaces between components against a software design.
+- Software components may be integrated in an iterative way or all together ("big bang").
+  - you can probably anticipate the kinds of problems we'll get in the second approach
+- **test things together**
+
+
+##System testing
+
+- tests a completely integrated system to verify that it meets its requirements
+- ensure that the program does not also destroy or partially corrupt its operating environment or cause other processes
+  - not corrupting shared memory
+  - not consuming
+  - not locking up excessive resources
+  - leaving any parallel processes unharmed by its presence
+- **test system does break / impact on other programs**
+
+
+
 ##Getting Started with JUnit
 
 
@@ -147,6 +294,19 @@ For the practicals you can choose exactly what level you choose to emulate:
 
 
 ##Test-Driven Development
+
+- a method from the Agile community that recommends (dictates)
+	- write tests **before** writing code
+
+
+###pedagogical arguments (for using TDD)
+
+- using TDD forces you to write tests
+- TDD forces you to think about tests as formal specifications
+- TDD encourages you to think differently (perhaps)
+
+
+##TDD step-by-step
 
 We'll be using a Test-Driven Development approach.
 
