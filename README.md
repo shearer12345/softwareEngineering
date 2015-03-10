@@ -1,4 +1,4 @@
-#Introduction To Git and Continuous Integration
+#Software Engineering
 
 - hosted at: http://shearer12345.github.io/softwareEngineering
 - source at: https://github.com/shearer12345/softwareEngineering
